@@ -38,12 +38,21 @@ body {
 
 .logo-box {
     position: absolute;
-    top:40px;
-    left:40px;
+    top:30px;
+    left:30px;
+    /* background-color: red; */
 }
 
 .logo {
-    height: 35px ;
+    height: 120px ;
+}
+
+.text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    /* background-color: red; */
+    transform: translate(-50%,-50%);
 }
 
 .heading-primary {
