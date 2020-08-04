@@ -48,7 +48,7 @@ body {
 }
 
 .logo:hover {
-    animation: moveInRight 1s ease-out;
+    animation: rotate360 1s ease-out;
 }
 
 .text-box {
@@ -123,5 +123,20 @@ body {
     100% {
         opacity: 1;
         transform: translate(0);
+    }
+}
+
+@keyframes rotate360 {
+    0% {
+        /* opacity: 0; */
+        transform: rotate(0);
+    }
+
+    /* 50%{
+        transform: rotate(180deg);
+    } */
+
+    100% {
+        transform: rotate(360deg);
     }
 }
