@@ -7,10 +7,16 @@ Dark Green: #28b485
 
 */
 
-* {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
 }
 
 body { 
@@ -20,6 +26,7 @@ body {
     line-height: 1.7; 
     color: #777;
     padding: 30px;
+    box-sizing: border-box;
 }
 
 .header {
